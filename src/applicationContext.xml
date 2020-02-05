@@ -6,4 +6,8 @@
     <bean id = "myCoach"
           class="com.springDemo.TrackCoach">
     </bean>
+
+    <bean id = "secondCoach"
+          class="com.springDemo.BaseballCoach">
+    </bean>
 </beans>
