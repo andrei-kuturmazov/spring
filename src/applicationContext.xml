@@ -5,9 +5,14 @@
 
     <bean id = "myCoach"
           class="com.springDemo.TrackCoach">
+        <constructor-arg ref="fortune"></constructor-arg>
     </bean>
 
     <bean id = "secondCoach"
           class="com.springDemo.BaseballCoach">
+    </bean>
+
+    <bean id = "fortune"
+          class="com.springDemo.HappyFortuneService">
     </bean>
 </beans>
